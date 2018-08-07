@@ -35,6 +35,6 @@ class Contacts extends React.Component {
     var contacts = this.props.items.map(function(contact) {
       return <Contact item={contact} key={contact.id} />;
     });
-    return <ul className={"contactList"}>{contacts}</ul>;
+    return <ul className={'contactList'}>{contacts}</ul>;
   }
 }
