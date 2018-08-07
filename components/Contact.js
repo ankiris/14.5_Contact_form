@@ -8,10 +8,10 @@ var Contact = React.createClass({
         <div className={'contactItem'}>
           <img className={'contactImage'} src={'http://via.placeholder.com/150x150'}/>
           <p className={'contactLabel'}>
-            Imię: {this.props.contacts.firstName}
+            Imię: {this.props.item.firstName}
           </p>
           <p className={'contactLabel'}>
-            Nazwisko: {this.props.contacts.lastName}
+            Nazwisko: {this.props.item.lastName}
           </p>
           <a href={'mailto:' + this.props.item.email}>
             {this.props.item.email}
